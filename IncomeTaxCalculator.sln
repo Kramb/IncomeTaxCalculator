@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncomeTaxCalculator", "IncomeTaxCalculator.csproj", "{D3C795D4-F1CA-460B-8BB1-C22E49F8A134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncomeTaxCalculatorTests", "IncomeTaxCalculatorTests\IncomeTaxCalculatorTests.csproj", "{0C8926F4-4C21-4A57-B874-F5FA57A699EE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D3C795D4-F1CA-460B-8BB1-C22E49F8A134} = {D3C795D4-F1CA-460B-8BB1-C22E49F8A134}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3C795D4-F1CA-460B-8BB1-C22E49F8A134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C795D4-F1CA-460B-8BB1-C22E49F8A134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C795D4-F1CA-460B-8BB1-C22E49F8A134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C795D4-F1CA-460B-8BB1-C22E49F8A134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C8926F4-4C21-4A57-B874-F5FA57A699EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8926F4-4C21-4A57-B874-F5FA57A699EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8926F4-4C21-4A57-B874-F5FA57A699EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8926F4-4C21-4A57-B874-F5FA57A699EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {318DC3B5-3A3C-42AA-8479-7F93727BDA40}
+	EndGlobalSection
+EndGlobal
